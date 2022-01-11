@@ -1,0 +1,129 @@
+:root{
+  --bgColor1: -webkit-linear-gradient(top right, #6A0562,#0080FF);
+  --bgColor2: linear-gradient(217deg, #BF00FF, rgba(100,0,0,0) 60%), linear-gradient(127deg, #2ECCFA, rgba(0,100,0,0) 60%),
+    linear-gradient(336deg, #F2F5A9, rgba(0,0,100,0) 60%);
+}
+body{
+  background: url(../img/bg_image.jpg) no-repeat 100% 100% fixed;
+  background-size: cover;
+}
+.blog-header {
+  line-height: 1;
+}
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, .me-auto, .toast-body {
+  font-family: "Lobster", cursive;
+}
+.display-4 {
+  font-size: 2.5rem;
+}
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+.flex-auto {
+  flex: 0 0 auto;
+}
+.h-250 { height: 250px; }
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+/* Свої стилі */
+.btn-outline-success:hover {
+  background: var(--bgColor2);
+}
+.btn-primary{
+  background: var(--bgColor1);
+}
+.bg-color2{
+  background: var(--bgColor2);
+}
+.bg-color1{
+  background: var(--bgColor1);
+}
+.col-md-6{
+  padding-top: 12px;
+}
+.modal-header{
+  background: var(--bgColor2);
+}
+.border-bottom {
+  border-bottom: 1px solid gray!important;
+}
+.btn-outline-success{
+  width: 100%;
+}
+.btn-check:active+.btn-outline-success, .btn-check:checked+.btn-outline-success,
+.btn-outline-success.active, .btn-outline-success.dropdown-toggle.show, .btn-outline-success:active{
+  background: var(--bgColor1);
+}
+.toast-header{
+  background: var(--bgColor2);
+}
+.alert-dark{
+  background: rgba(211, 211, 212, 0.5);
+}
+.img-test{
+  min-height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

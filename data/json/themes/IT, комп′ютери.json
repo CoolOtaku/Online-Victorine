@@ -1,0 +1,50 @@
+[
+    {
+        "title":"На скільки добре ви знаєте фільми",
+        "cover":"https://lh3.googleusercontent.com/proxy/-9YEVRhmETKXahmtyW4uDNWNNXU2aGHnGO4UtEfF76jseKUg93UUdDCfSsIlqEGGtYe5z9DdVIGXjaYtEb4sqoPNYLBL0uDc12R3H0jJx9VxOKu9HkWruPRe0hUQRZurziuQvw",
+        "questions":
+        [
+          {
+            "question":"Коли був випущений перший ПК ?",
+            "true_reply":1,
+            "answers":
+            [
+              1988,1973,1971,1999
+            ]
+          },
+          {
+            "question":"Популярна веб мова програмування ?",
+            "true_reply":2,
+            "answers":
+            [
+              "С++","С","PHP"
+            ]
+          },
+          {
+            "question":"Що таке бек енд ?",
+            "true_reply":1,
+            "answers":
+            [
+              "Візуальна частина","Функціональна частина"
+            ]
+          },
+          {
+            "question":"Правда що Java використовують для Android розробки ?",
+            "true_reply":0,
+            "answers":
+            [
+              "Правда","Брехня"
+            ]
+          },
+          {
+            "question":"Чи можливо писати сайти (серверну частину) на java ?",
+            "true_reply":0,
+            "answers":
+            [
+              "Так","Ні"
+            ]
+          }
+
+        ]
+    }
+]
