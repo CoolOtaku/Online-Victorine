@@ -36,7 +36,7 @@ A site (game) for passing quizzes on various topics. Without using the **API**, 
 - Information search and easy site navigation
 
 <b>UA:</b>
-- Використання Bootstrap (front-end framework)
+- Використання **Bootstrap** (front-end framework)
 - Зберігання даних у файлах у форматі **JSON** (без використання **API**)
 - Створення гри-вікторини на **JavaScript**
 - Пошук інформації та зручна навігація по сайту
