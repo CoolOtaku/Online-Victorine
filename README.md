@@ -6,13 +6,13 @@
 
 This is a course project that I was ordered.
 
-A site (game) for passing quizzes on various topics. Without using the **API**, only the interface and functionality of the game will leave.
+A site (game) for passing quizzes on various topics. Without the use of **API**, only the interface and the functional part of the game.
 
 <b>UA:</b>
 
 Це курсовий проект який в мене заказали.
 
-Сайт (гра) для проходження вікторін на різні теми. Без використання **API** покине лише інтерфейс, та функціональну гру.
+Сайт (гра) для проходження вікторін на різні теми. Без використання **API** поки лише інтерфейс, та функціональна частина гри.
 
 #
 ## Screenshots
